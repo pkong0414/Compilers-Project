@@ -8,7 +8,7 @@ BNF Grammar:
 
   This is the custom grammar we are using for this translation. 
   
-  The grammar will start from the top and build down starting at <program> and ending with an integer or identifier.
+  The grammar will form a tree starting from the top <&nbspprogram&nbsp> and build down every grammar until integer or identifier.
 
 "<&nbsp;program&nbsp;>  ->      start <&nbsp;vars&nbsp;> main <&nbsp;block&nbsp;> stop" <br />
 "<&nbsp;block&nbsp;>    ->      { <&nbsp;vars&nbsp;> <&nbsp;stats&nbsp;> }" <br />
