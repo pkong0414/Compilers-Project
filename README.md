@@ -10,22 +10,22 @@ BNF Grammar:
   
   The grammar will start from the top and build down starting at <program> and ending with an integer or identifier.
 
-"<program>  ->      start <vars> main <block> stop" <br />
-"<block>    ->      { <vars> <stats> }" <br />
-"<vars>     ->      empty | let Identifier :  Integer    <vars>" <br />
-"<expr>     ->      <N> / <expr>  | <N> * <expr> | <N>" <br />
-"<N>        ->      <A> + <N> | <A> - <N> | <A>" <br />
-"<A>        ->      % <A> |  <R>" <br />
-"<R>        ->      [ <expr> ] | Identifier | Integer" <br />
-"<stats>    ->      <stat>  <mStat>" <br />
-"<mStat>    ->      empty |  <stat>  <mStat>" <br />
-"<stat>     ->      <in> .  | <out> .  | <block> | <if> .  | <loop> .  | <assign> ." <br />  
-"<in>       ->      scanf [ Identifier ]" <br />
-"<out>      ->      printf [ <expr> ]" <br />
-"<if>       ->      if [ <expr> <RO> <expr> ] then <block>" <br />
-"<loop>     ->      iter [ <expr> <RO> <expr> ]  <block>" <br />
-"<assign>   ->      Identifier  = <expr>" <br />
-"<RO>       ->      =<  | =>   |  ==  |   :  :  (two tokens)" <br />
+"<&nbsp;program&nbsp;>  ->      start <&nbsp;vars&nbsp;> main <&nbsp;block&nbsp;> stop" <br />
+"<&nbsp;block&nbsp;>    ->      { <&nbsp;vars&nbsp;> <&nbsp;stats&nbsp;> }" <br />
+"<&nbsp;vars&nbsp;>     ->      empty | let Identifier :  Integer    <&nbsp;vars&nbsp;>" <br />
+"<&nbsp;expr&nbsp;>     ->      <&nbsp;N&nbsp;> / <&nbsp;expr&nbsp;>  | <&nbsp;N&nbsp;> * <&nbsp;expr&nbsp;> | <&nbsp;N&nbsp;>" <br />
+"<&nbsp;N&nbsp;>        ->      <&nbsp;A&nbsp;> + <&nbsp;N&nbsp;> | <&nbsp;A&nbsp;> - <&nbsp;N&nbsp;> | <&nbsp;A&nbsp;>" <br />
+"<&nbsp;A&nbsp;>        ->      % <&nbsp;A&nbsp;> |  <&nbsp;R&nbsp;>" <br />
+"<&nbsp;R&nbsp;>        ->      [ <&nbsp;expr&nbsp;> ] | Identifier | Integer" <br />
+"<&nbsp;stats&nbsp;>    ->      <&nbsp;stat&nbsp;>  <&nbsp;mStat&nbsp;>" <br />
+"<&nbsp;mStat&nbsp;>    ->      empty |  <&nbsp;stat&nbsp;>  <&nbsp;mStat&nbsp;>" <br />
+"<&nbsp;stat&nbsp;>     ->      <&nbsp;in&nbsp;> .  | <&nbsp;out&nbsp;> .  | <&nbsp;block&nbsp;> | <&nbsp;if&nbsp;> .  | <&nbsp;loop&nbsp;> .  | <&nbsp;assign&nbsp;> ." <br />  
+"<&nbsp;in&nbsp;>       ->      scanf [ Identifier ]" <br />
+"<&nbsp;out&nbsp;>      ->      printf [ <&nbsp;expr&nbsp;> ]" <br />
+"<&nbsp;if&nbsp;>       ->      if [ <&nbsp;expr&nbsp;> <&nbsp;RO&nbsp;> <&nbsp;expr&nbsp;> ] then <&nbsp;block&nbsp;>" <br />
+"<&nbsp;loop&nbsp;>     ->      iter [ <&nbsp;expr&nbsp;> <&nbsp;RO&nbsp;> <&nbsp;expr&nbsp;> ]  <&nbsp;block&nbsp;>" <br />
+"<&nbsp;assign&nbsp;>   ->      Identifier  = <&nbsp;expr&nbsp;>" <br />
+"<&nbsp;RO&nbsp;>       ->      =<  | =>   |  ==  |   :  :  (two tokens)" <br />
   
 Instructions:
   
