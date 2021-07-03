@@ -8,7 +8,11 @@ BNF Grammar:
 
   This is the custom grammar we are using for this translation. 
   
-  The grammar will form a tree starting from the top <&nbspprogram&nbsp> and build down every grammar until integer or identifier.
+  The grammar will form a tree starting from the top <program> and build down every grammar until integer or identifier.
+  
+  This tree will be used to translate into UMSL's custom assembly language.
+  
+  This is the link to the assembler: https://comp.umsl.edu/assembler/interpreter
 
 "<&nbsp;program&nbsp;>  ->      start <&nbsp;vars&nbsp;> main <&nbsp;block&nbsp;> stop" <br />
 "<&nbsp;block&nbsp;>    ->      { <&nbsp;vars&nbsp;> <&nbsp;stats&nbsp;> }" <br />
