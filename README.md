@@ -10,22 +10,22 @@ BNF Grammar:
   
   The grammar will start from the top and build down starting at <program> and ending with an integer or identifier.
 
-<program>  ->      start <vars> main <block> stop
-<block>    ->      { <vars> <stats> }
-<vars>     ->      empty | let Identifier :  Integer    <vars>
-<expr>     ->      <N> / <expr>  | <N> * <expr> | <N>
-<N>        ->      <A> + <N> | <A> - <N> | <A>
-<A>        ->      % <A> |  <R>
-<R>        ->      [ <expr> ] | Identifier | Integer
-<stats>    ->      <stat>  <mStat>
-<mStat>    ->      empty |  <stat>  <mStat>
-<stat>     ->      <in> .  | <out> .  | <block> | <if> .  | <loop> .  | <assign> .  
-<in>       ->      scanf [ Identifier ]
-<out>      ->      printf [ <expr> ]
-<if>       ->      if [ <expr> <RO> <expr> ] then <block>
-<loop>     ->      iter [ <expr> <RO> <expr> ]  <block>
-<assign>   ->      Identifier  = <expr> 
-<RO>       ->      =<  | =>   |  ==  |   :  :  (two tokens)
+"<program>  ->      start <vars> main <block> stop" <br />
+"<block>    ->      { <vars> <stats> }" <br />
+"<vars>     ->      empty | let Identifier :  Integer    <vars>" <br />
+"<expr>     ->      <N> / <expr>  | <N> * <expr> | <N>" <br />
+"<N>        ->      <A> + <N> | <A> - <N> | <A>" <br />
+"<A>        ->      % <A> |  <R>" <br />
+"<R>        ->      [ <expr> ] | Identifier | Integer" <br />
+"<stats>    ->      <stat>  <mStat>" <br />
+"<mStat>    ->      empty |  <stat>  <mStat>" <br />
+"<stat>     ->      <in> .  | <out> .  | <block> | <if> .  | <loop> .  | <assign> ." <br />  
+"<in>       ->      scanf [ Identifier ]" <br />
+"<out>      ->      printf [ <expr> ]" <br />
+"<if>       ->      if [ <expr> <RO> <expr> ] then <block>" <br />
+"<loop>     ->      iter [ <expr> <RO> <expr> ]  <block>" <br />
+"<assign>   ->      Identifier  = <expr>" <br />
+"<RO>       ->      =<  | =>   |  ==  |   :  :  (two tokens)" <br />
   
 Instructions:
   
