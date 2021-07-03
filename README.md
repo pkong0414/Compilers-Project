@@ -19,7 +19,7 @@ BNF Grammar:
 "<&nbsp;R&nbsp;>        ->      [ <&nbsp;expr&nbsp;> ] | Identifier | Integer" <br />
 "<&nbsp;stats&nbsp;>    ->      <&nbsp;stat&nbsp;>  <&nbsp;mStat&nbsp;>" <br />
 "<&nbsp;mStat&nbsp;>    ->      empty |  <&nbsp;stat&nbsp;>  <&nbsp;mStat&nbsp;>" <br />
-"<&nbsp;stat&nbsp;>     ->      <&nbsp;in&nbsp;> .  | <&nbsp;out&nbsp;> .  | <&nbsp;block&nbsp;> | <&nbsp;if&nbsp;> .  | <&nbsp;loop&nbsp;> .  | <&nbsp;assign&nbsp;> ." <br />  
+"<&nbsp;stat&nbsp;>     ->      <&nbsp;in&nbsp;> .  | <&nbsp;out&nbsp;> .  | <&nbsp;block&nbsp;> | <&nbsp;if&nbsp;> .  | <&nbsp;loop&nbsp;> .  | <&nbsp;assign&nbsp;> ." <br />
 "<&nbsp;in&nbsp;>       ->      scanf [ Identifier ]" <br />
 "<&nbsp;out&nbsp;>      ->      printf [ <&nbsp;expr&nbsp;> ]" <br />
 "<&nbsp;if&nbsp;>       ->      if [ <&nbsp;expr&nbsp;> <&nbsp;RO&nbsp;> <&nbsp;expr&nbsp;> ] then <&nbsp;block&nbsp;>" <br />
