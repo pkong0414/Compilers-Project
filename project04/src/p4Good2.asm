@@ -1,0 +1,4 @@
+READ x
+WRITE x
+STOP
+x 1

@@ -1,0 +1,9 @@
+READ x
+In0: NOOP
+LOAD 1
+SUB x
+BRNEG Out0
+BR In0
+Out0: NOOP
+STOP
+x 1

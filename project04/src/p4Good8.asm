@@ -1,0 +1,4 @@
+READ x
+LOAD 1
+SUB 2
+STORE T0

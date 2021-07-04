@@ -1,0 +1,9 @@
+READ x
+LOAD 0
+SUB x
+BRNEG OutIf0
+LOAD 1
+WRITE 1
+OutIf0: NOOP
+STOP
+x 1

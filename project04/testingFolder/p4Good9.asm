@@ -1,0 +1,11 @@
+READ x
+BRZNEG Out0
+WRITE 1
+LOAD 1
+SUB 1
+x
+STORE x
+BR In0
+Out0: NOOP
+STOP
+x 1
